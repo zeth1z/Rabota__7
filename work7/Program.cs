@@ -1,4 +1,4 @@
-public static double CalculateTriangleArea(double a, double b, double c)
+    public static double CalculateTriangleArea(double a, double b, double c)
     {
         try
         {
@@ -22,3 +22,4 @@ public static double CalculateTriangleArea(double a, double b, double c)
             throw new Exception($"Математическая ошибка: {ex.Message}");
         }
     }
+}

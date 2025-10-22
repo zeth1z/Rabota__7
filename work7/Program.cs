@@ -1,13 +1,4 @@
-﻿using System;
-namespace rrr;
-public class Program
-{
-    static void Main()
-    {
-        Console.WriteLine("Программа для нахождения периметра, полупериметра и площади треугольника по трём его сторонам");
-    }
-
-    public static double CalculateTriangleArea(double a, double b, double c)
+public static double CalculateTriangleArea(double a, double b, double c)
     {
         try
         {
@@ -31,4 +22,3 @@ public class Program
             throw new Exception($"Математическая ошибка: {ex.Message}");
         }
     }
-}
